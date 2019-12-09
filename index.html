@@ -9,11 +9,14 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="js/main.js">
+
+		</script>
     <title>Nirbhay Singh</title>
   </head>
-  <body>
+  <body onscroll="onScroll()">
 		<div class="mainWrapper">
-			<nav class="navbar navbar-expand-lg navbar-dark">
+			<nav class="navbar navbar-expand-lg navbar-dark" id="nav">
 			  <a class="navbar-brand" href="#"><img class="logo" src="assets/logo.png"></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
@@ -21,10 +24,10 @@
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav mr-auto">
 			      <li class="nav-item ">
-			        <a class="nav-link ml-3" href="#"> Projects </a>
+			        <a class="nav-link ml-3" href="#"> Skills </a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link ml-3" href="#"> Skills </a>
+			        <a class="nav-link ml-3" href="#"> Projects </a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link ml-3" href="#"> Inspiration</a>
@@ -35,9 +38,26 @@
 			    </ul>
 			  </div>
 			</nav>
-			<div class="mainDiv">
+			<div class="div1">
 				<div class="splashDiv">
 					<h1 class="splashHead"> i build stuff </h1>
+				</div>
+			</div>
+			<div class="div2">
+				<div class="skillsDiv" id="run">
+					<h2 class="skillsHead"> Skills </h2>
+					<div class="row">
+						<img class="skillImg" src="assets/python.png">
+						<img class="skillImg" src="assets/cpp.png">
+						<img class="skillImg" src="assets/firebase.png">
+						<img class="skillImg" src="assets/swift.png">
+					</div>
+					<div class="row">
+						<img class="skillImg" src="assets/jquery.png">
+						<img class="skillImg" src="assets/latex.png">
+						<img class="skillImg" src="assets/js.jpg">
+						<img class="skillImg" src="assets/git.png">
+					</div>
 				</div>
 			</div>
 		</div>
